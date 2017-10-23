@@ -1,0 +1,29 @@
+img {
+  max-height: 120px;
+}
+
+.mycustomjumborton {
+  padding-top: 70px;
+
+  background-color: #fff6ce;
+}
+
+.navbar {
+  background-color: #fbe588 ;
+}
+.activee{
+  background-color: #fff6ce;
+}
+
+footer {
+  background-color: #fff6ce;
+  bottom: 0;
+  width: 100%;
+  right: 0;
+  left: 0;
+  height: 40px;
+  margin-top: 40px;
+  margin-bottom: 0;
+  padding-top: 8px;
+  text-align: center;
+}
