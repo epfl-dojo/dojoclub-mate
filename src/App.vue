@@ -1,13 +1,22 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <HeaderComponent></HeaderComponent>
+    <TitleComponent></TitleComponent>
+    <FooterComponent></FooterComponent>
     <router-view/>
   </div>
 </template>
 
 <script>
+import HeaderComponent from './layout/Header.vue'
+import FooterComponent from './layout/Footer.vue'
+import TitleComponent from './components/title.vue'
+
 export default {
-  name: 'app'
+  name: 'app',
+  componemts: {
+    TitleComponent ,HeaderComponent, FooterComponent
+  }
 }
 </script>
 
