@@ -1,32 +1,28 @@
 <template>
   <div id="app">
-    <HeaderComponent></HeaderComponent>
-    <TitleComponent></TitleComponent>
-    <FooterComponent></FooterComponent>
-    <router-view/>
+    <Header></Header>
+    <Title></Title>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
-import HeaderComponent from './layout/Header.vue'
-import FooterComponent from './layout/Footer.vue'
-import TitleComponent from './components/title.vue'
+import Header from './layouts/Header.vue'
+import Footer from './layouts/Footer.vue'
+import Title from './components/Title.vue'
 
 export default {
   name: 'app',
   componemts: {
-    TitleComponent ,HeaderComponent, FooterComponent
+    Title,
+    Header,
+    Footer
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
 }
 </style>

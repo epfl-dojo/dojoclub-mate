@@ -3,7 +3,7 @@
     <!-- Main component for a primary marketing message or call to action -->
     <div class="jumbotron mycustomjumborton">
         <img src="src/assets/logoclub-mate.png" alt="logo"></img>
-      <p>In this site you will find documentation about Club-Mate.</p>
+      <p>{{ description }}</p>
     </div>
   </div> <!-- /container -->
 </template>
@@ -12,8 +12,11 @@ export default {
   name: 'title',
   data () {
     return {
-
+      description: 'In this site you will find documentation about Club-Mate.'
     }
+  },
+  mounted() {
+      console.log('Modal component title ready.')
   }
 }
 </script>

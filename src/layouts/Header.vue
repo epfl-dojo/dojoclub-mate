@@ -33,3 +33,10 @@
     </nav>
   </header>
 </template>
+<script>
+    export default {
+        mounted() {
+            console.log('Modal component header ready.')
+        }
+    }
+</script>

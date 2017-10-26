@@ -5,3 +5,10 @@
    </div>
  </footer>
 </template>
+<script>
+    export default {
+        mounted() {
+            console.log('Modal component footer ready.')
+        }
+    }
+</script>
