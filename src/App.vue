@@ -13,7 +13,7 @@ import Title from './components/Title.vue'
 
 export default {
   name: 'app',
-  componemts: {
+  components: {
     Title,
     Header,
     Footer
@@ -22,7 +22,22 @@ export default {
 </script>
 
 <style>
-#app {
 
+img {
+  max-height: 120px;
+}
+
+
+footer {
+  background-color: #fff6ce;
+  bottom: 0;
+  width: 100%;
+  right: 0;
+  left: 0;
+  height: 40px;
+  margin-top: 40px;
+  margin-bottom: 0;
+  padding-top: 8px;
+  text-align: center;
 }
 </style>

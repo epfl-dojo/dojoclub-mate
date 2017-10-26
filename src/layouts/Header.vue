@@ -28,15 +28,16 @@
             </li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
     </nav>
   </header>
 </template>
-<script>
-    export default {
-        mounted() {
-            console.log('Modal component header ready.')
-        }
-    }
-</script>
+<style>
+.navbar {
+  background-color: #fbe588 ;
+}
+.activee{
+  background-color: #fff6ce;
+}
+</style>

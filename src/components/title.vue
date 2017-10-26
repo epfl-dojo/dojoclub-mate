@@ -2,10 +2,10 @@
   <div class="container">
     <!-- Main component for a primary marketing message or call to action -->
     <div class="jumbotron mycustomjumborton">
-        <img src="src/assets/logoclub-mate.png" alt="logo"></img>
+        <img src="../assets/logoclub-mate.png" alt="logo"></img>
       <p>{{ description }}</p>
     </div>
-  </div> <!-- /container -->
+  </div>
 </template>
 <script>
 export default {
@@ -14,9 +14,15 @@ export default {
     return {
       description: 'In this site you will find documentation about Club-Mate.'
     }
-  },
-  mounted() {
-      console.log('Modal component title ready.')
   }
 }
 </script>
+<style>
+
+.mycustomjumborton {
+  padding-top: 70px;
+
+  background-color: #fff6ce;
+}
+
+</style>
