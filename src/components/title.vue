@@ -2,7 +2,7 @@
   <div class="container">
     <!-- Main component for a primary marketing message or call to action -->
     <div class="jumbotron mycustomjumborton">
-        <img id="matelogo" :src="img" alt="logo"></img>
+      <img id="matelogo" :src="img" alt="logo" />
       <p>{{ description }}</p>
     </div>
   </div>
@@ -28,5 +28,5 @@ export default {
 
   background-color: #fff6ce;
 }
-
+q
 </style>

@@ -24,9 +24,6 @@ export default {
 }
 </script>
 <style>
-
-
-
 footer {
   background-color: #fff6ce;
   bottom: 0;

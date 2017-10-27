@@ -1,7 +1,9 @@
 # dojoclub-mate
 
 > vue.js site documenting club-mate in order to practice/get started with the framework
-> the presentation@ :http://prezi.com/7s31x8r5bp32/?utm_campaign=share&utm_medium=copy&rc=ex0share
+
+>the presentation@ :http://prezi.com/7s31x8r5bp32/?utm_campaign=share&utm_medium=copy&rc=ex0share
+
 ## Build Setup
 
 ``` bash
