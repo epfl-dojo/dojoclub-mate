@@ -1,31 +1,30 @@
 <template>
   <div id="app">
-    <Header></Header>
-    <Title></Title>
-    <Footer></Footer>
+    <Header-Component></Header-Component>
+    <Title-Component></Title-Component>
+    <MateComponent></MateComponent>
+    <Footer-Component></Footer-Component>
   </div>
 </template>
 
 <script>
-import Header from './layouts/Header.vue'
-import Footer from './layouts/Footer.vue'
-import Title from './components/Title.vue'
+import HeaderComponent from './layouts/Header.vue'
+import FooterComponent from './layouts/Footer.vue'
+import TitleComponent from './components/Title.vue'
+import MateComponent from './components/mate.vue'
 
 export default {
   name: 'app',
   components: {
-    Title,
-    Header,
-    Footer
+    TitleComponent,
+    MateComponent,
+    HeaderComponent,
+    FooterComponent
   }
 }
 </script>
-
 <style>
 
-img {
-  max-height: 120px;
-}
 
 
 footer {
