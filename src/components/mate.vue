@@ -31,13 +31,11 @@ export default {
 
 .mycustomjumborton {
   padding-top: 70px;
-
   background-color: #fff6ce;
 
 }
 
-#imagemate
-{
+#imagemate {
   height: 300px;
   max-height: 3000px;
 }

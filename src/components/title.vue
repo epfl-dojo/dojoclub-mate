@@ -12,9 +12,8 @@ export default {
   name: 'title',
   data () {
     return {
-      description: 'In this site you will find documentation about Club-Mate.',
+      description: 'In this site you will find documentation about CLUB-MATE.',
       img: "/static/logoclub-mate.png"
-
     }
   }
 }
@@ -28,5 +27,4 @@ export default {
 
   background-color: #fff6ce;
 }
-q
 </style>
